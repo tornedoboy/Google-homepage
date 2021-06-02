@@ -6,10 +6,37 @@
 ul li{
     display: inline-block;
     list-style-type: none;
+    margin-top: 15px;
 }
 .right{
 
     float: right;
-    display: inline block;
-    list-style-type: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+.google{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%)
+
+}
+.round{
+    border-radius: 50%;
+}
+input{
+    width: 150%;
+    border-radius: 15%;
+}
+.limar{
+    
+   padding: 10px;
+}
+.search{
+    
 }
